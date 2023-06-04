@@ -23,6 +23,14 @@ Developed by: Jeyabalan
 RegisterNumber: 212222240040
 */
 ```
+```
+import numpy as np
+from scipy.linalg import lu
+A=np.array(eval(input()))
+P,L,U=lu(A)
+print(L)
+print(U)
+```
 (ii) To find the LU Decomposition of a matrix
 ```
 /*
@@ -30,6 +38,14 @@ Program to find the LU Decomposition of a matrix.
 Developed by: Jeyabalan
 RegisterNumber: 212222240040
 */
+```
+import numpy as np
+from scipy.linalg import lu_factor,lu_solve
+arr=np.array([[3,2,7],[2,3,1],[3,4,1]])
+B=np.array([4,5,7])
+LU,P=lu_factor(arr)
+res=lu_solve((LU,P),B)
+print(res)
 ```
 
 ## Output:
