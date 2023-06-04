@@ -52,7 +52,9 @@ print(x)
 ```
 
 ## Output:
-![lu decomposition]()
+![lu decomposition]()![image](https://github.com/jeyaqbalan7/LU-Decomposition/assets/119393851/9b51b595-8890-49de-90ff-a80b33af4e1f)
+![image](https://github.com/jeyaqbalan7/LU-Decomposition/assets/119393851/3e5adf39-b56a-47e2-a293-29979e0c6731)
+
 
 
 ## Result:
