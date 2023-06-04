@@ -41,11 +41,12 @@ RegisterNumber: 212222240040
 ```
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
-arr=np.array([[3,2,7],[2,3,1],[3,4,1]])
-B=np.array([4,5,7])
-LU,P=lu_factor(arr)
-res=lu_solve((LU,P),B)
-print(res)
+A=np.array(eval(input()))
+b=np.array(eval(input()))
+lu,piv=lu_factor(A)
+x=lu_solve((lu,piv),b)
+print(x)
+
 ```
 
 ## Output:
